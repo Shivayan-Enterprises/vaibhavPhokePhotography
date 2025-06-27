@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Phoke Photography - Indian Wedding & Cultural Photography</title>
+    <meta name="description" content="Vaibhav Phoke Photography specializes in Indian wedding photography, pre-wedding shoots, and traditional Bharatiya ceremonies, capturing timeless emotions and vibrant moments.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- GSAP and VanillaTilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor">
+        <!-- <img src="./camera_5889846.png" alt=""> -->
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Vaibhav Phoke Photography</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-wrapper">
+            <div class="hero-bg parallax-element" data-speed="0.5" style="background-image: url('https://images.unsplash.com/photo-1611822320567-0e951ea4e3a2?w=1920&h=1080&fit=crop');"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-main">Vaibhav Phoke</span>
+                    <span class="title-script">Photography</span>
+                </h1>
+                <p class="hero-subtitle fade-in-up">
+                    Capturing the vibrant soul of Indian weddings & traditions
+                </p>
+            </div>
+            
+            <div class="hero-cta">
+                <a href="portfolio.html" class="cta-button">
+                    <span>Explore My Work</span>
+                    <div class="button-bg"></div>
+                </a>
+                <a href="contact.html#booking" class="cta-button secondary">
+                    <span>Book a Shoot</span>
+                    <div class="button-bg"></div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Scroll</span>
+        </div>
+    </section>
+    
+    <!-- Featured Work Preview -->
+    <section class="featured-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-subtitle handwriting">Celebrating Bharatiya moments</p>
+            </div>
+            
+            <div class="featured-grid">
+                <div class="featured-item" data-tilt>
+                    <div class="featured-image parallax-container">
+                        <img src="https://images.unsplash.com/photo-1576698376565-88b39e526d9c?w=800&h=1000&fit=crop" alt="Indian Wedding Photography" class="parallax-image">
+                    </div>
+                    <div class="featured-content">
+                        <h3>Indian Weddings</h3>
+                        <p>Vibrant ceremonies, timeless love</p>
+                    </div>
+                </div>
+                
+                <div class="featured-item" data-tilt>
+                    <div class="featured-image parallax-container">
+                        <img src="https://images.unsplash.com/photo-1622110313551-1a8f3f2c6a02?w=800&h=1000&fit=crop" alt="Pre-Wedding Shoots" class="parallax-image">
+                    </div>
+                    <div class="featured-content">
+                        <h3>Pre-Wedding Shoots</h3>
+                        <p>Romantic stories in stunning locales</p>
+                    </div>
+                </div>
+                
+                <div class="featured-item" data-tilt>
+                    <div class="featured-image parallax-container">
+                        <img src="https://images.unsplash.com/photo-1600685921477-7b479dfdf0e2?w=800&h=1000&fit=crop" alt="Traditional Ceremonies" class="parallax-image">
+                    </div>
+                    <div class="featured-content">
+                        <h3>Traditional Ceremonies</h3>
+                        <p>Mehendi, Haldi, Sangeet in vivid detail</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Philosophy Section -->
+    <section class="philosophy">
+        <div class="container">
+            <div class="philosophy-content">
+                <div class="philosophy-text">
+                    <h2 class="philosophy-title">My Philosophy</h2>
+                    <p class="philosophy-quote handwriting">"Every ritual, every smile, every moment deserves to be eternal."</p>
+                    <p class="philosophy-description">
+                        At Vaibhav Phoke Photography, we weave the rich tapestry of Indian traditions into timeless visuals. From the vibrancy of Haldi to the elegance of a bride’s farewell, we capture the heart of every moment.
+                    </p>
+                    <a href="about.html" class="text-link">Learn more about my journey →</a>
+                </div>
+                <div class="philosophy-visual">
+                    <div class="floating-elements">
+                        <div class="float-element" data-float="slow">🌸</div>
+                        <div class="float-element" data-float="medium">💍</div>
+                        <div class="float-element" data-float="fast">✨</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Client Stories</h2>
+                <p class="section-subtitle handwriting">Moments cherished forever</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"Vaibhav captured our wedding with such artistry! Every photo tells a story of our love and traditions."</p>
+                    <p class="testimonial-author">– Priya & Arjun, Mumbai</p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"The candid moments from our Sangeet were magical. Vaibhav’s attention to detail is unmatched."</p>
+                    <p class="testimonial-author">– Neha & Rohan, Delhi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="home.js"></script>
+</body>
+</html>

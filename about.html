@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Vaibhav Phoke Photography</title>
+    <meta name="description" content="Learn about Vaibhav Phoke, a passionate photographer capturing the essence of Indian weddings and traditional ceremonies with authenticity and artistry.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- GSAP and VanillaTilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Vaibhav Phoke Photography</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-bg-wrapper">
+            <div class="hero-bg about-bg parallax-element" data-speed="0.3" style="background-image: url('https://images.unsplash.com/photo-1576698376565-88b39e526d9c?w=1920&h=1080&fit=crop');"></div>
+        </div>
+        <div class="page-hero-content">
+            <h1 class="page-title">About Vaibhav</h1>
+            <p class="page-subtitle handwriting">The story behind the lens</p>
+        </div>
+    </section>
+    
+    <!-- Story Section -->
+    <section class="story-section">
+        <div class="container">
+            <div class="story-layout">
+                <div class="story-text">
+                    <div class="story-block">
+                        <h2 class="story-title">My Journey</h2>
+                        <p class="story-paragraph">
+                            My love for photography began with capturing the vibrant chaos of Indian weddings in my hometown. 
+                            From the colors of Haldi to the emotions of a bride’s farewell, I found my calling in freezing these fleeting moments.
+                        </p>
+                        <p class="story-paragraph">
+                            Over the past 10 years, I’ve documented countless love stories, cultural celebrations, and candid moments across India, blending traditional artistry with modern storytelling.
+                        </p>
+                    </div>
+                    
+                    <div class="story-block">
+                        <h3 class="story-subtitle">What Drives Me</h3>
+                        <p class="story-paragraph">
+                            I believe every ritual and every smile carries a story. My approach is rooted in understanding the cultural depth of Indian traditions, ensuring each frame reflects authenticity and emotion.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="story-visual">
+                    <div class="about-image-container parallax-container">
+                        <img src="https://images.unsplash.com/photo-1600685921477-7b479dfdf0e2?w=600&h=800&fit=crop" alt="Vaibhav Phoke photographing a ceremony" class="about-image parallax-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills & Stats -->
+    <section class="skills-section">
+        <div class="container">
+            <div class="skills-grid">
+                <div class="skill-item" data-tilt>
+                    <div class="skill-icon">📷</div>
+                    <h3>Wedding Photography</h3>
+                    <p>Capturing love and traditions</p>
+                </div>
+                <div class="skill-item" data-tilt>
+                    <div class="skill-icon">🎬</div>
+                    <h3>Candid Videography</h3>
+                    <p>Cinematic storytelling</p>
+                </div>
+                <div class="skill-item" data-tilt>
+                    <div class="skill-icon">✂️</div>
+                    <h3>Post-Production</h3>
+                    <p>Editing with cultural finesse</p>
+                </div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Weddings Captured</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Happy Couples</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Vaibhav Phoke Photography. Crafted with passion for timeless moments.</p>
+        </div>
+    </footer>
+    
+    <script src="about.js"></script>
+</body>
+</html>

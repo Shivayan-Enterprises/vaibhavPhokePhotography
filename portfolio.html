@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Vaibhav Phoke Photography</title>
+    <meta name="description" content="Explore Vaibhav Phoke Photography’s portfolio of Indian wedding photography, pre-wedding shoots, and traditional ceremonies, showcasing vibrant and emotional moments.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- GSAP and VanillaTilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Vaibhav Phoke Photography</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Portfolio Hero -->
+    <section class="portfolio-hero">
+        <div class="container">
+            <h1 class="portfolio-title">My Portfolio</h1>
+            <p class="portfolio-subtitle handwriting">Timeless Bharatiya moments</p>
+        </div>
+    </section>
+    
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid">
+        <div class="grid-container">
+            <div class="portfolio-item large" data-category="wedding">
+                <div class="portfolio-image-wrapper parallax-container">
+                    <img src="https://images.unsplash.com/photo-1576698376565-88b39e526d9c?w=800&h=1200&fit=crop" alt="Indian Wedding" class="portfolio-image parallax-image">
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                        <h3>Indian Wedding</h3>
+                        <p>Vibrant ceremonies, timeless love</p>
+                        <span class="portfolio-category">Wedding</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item medium" data-category="pre-wedding">
+                <div class="portfolio-image-wrapper parallax-container">
+                    <img src="https://images.unsplash.com/photo-1622110313551-1a8f3f2c6a02?w=600&h=800&fit=crop" alt="Pre-Wedding Shoot" class="portfolio-image parallax-image">
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                        <h3>Pre-Wedding Shoot</h3>
+                        <p>Romantic stories in stunning locales</p>
+                        <span class="portfolio-category">Pre-Wedding</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item small" data-category="candid">
+                <div class="portfolio-image-wrapper parallax-container">
+                    <img src="https://images.unsplash.com/photo-1600685921477-7b479dfdf0e2?w=600&h=600&fit=crop" alt="Candid Moments" class="portfolio-image parallax-image">
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                        <h3>Candid Moments</h3>
+                        <p>Authentic emotions captured</p>
+                        <span class="portfolio-category">Candid</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item medium" data-category="traditional">
+                <div class="portfolio-image-wrapper parallax-container">
+                    <img src="https://images.unsplash.com/photo-1611822320567-0e951ea4e3a2?w=600&h=800&fit=crop" alt="Traditional Ceremonies" class="portfolio-image parallax-image">
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                        <h3>Traditional Ceremonies</h3>
+                        <p>Mehendi, Haldi, Sangeet</p>
+                        <span class="portfolio-category">Traditional</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item large" data-category="wedding">
+                <div class="portfolio-image-wrapper parallax-container">
+                    <img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=800&h=1200&fit=crop" alt="Wedding Rituals" class="portfolio-image parallax-image">
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                        <h3>Wedding Rituals</h3>
+                        <p>Cultural moments in vivid detail</p>
+                        <span class="portfolio-category">Wedding</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item small" data-category="pre-wedding">
+                <div class="portfolio-image-wrapper parallax-container">
+                    <img src="https://images.unsplash.com/photo-1592923469723-f82415c9cd2d?w=600&h=600&fit=crop" alt="Pre-Wedding Romance" class="portfolio-image parallax-image">
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                        <h3>Pre-Wedding Romance</h3>
+                        <p>Love in scenic frames</p>
+                        <span class="portfolio-category">Pre-Wedding</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to capture your story?</h2>
+                <p class="cta-subtitle handwriting">Let’s create timeless memories together</p>
+                <a href="contact.html" class="cta-button">
+                    <span>Get In Touch</span>
+                    <div class="button-bg"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Vaibhav Phoke Photography. Crafted with passion for timeless moments.</p>
+        </div>
+    </footer>
+    
+    <script src="portfolio.js"></script>
+</body>
+</html>
